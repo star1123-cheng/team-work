@@ -1,0 +1,33 @@
+# ===== 機敏資料（絕對不可上傳） =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*.json
+*serviceAccountKey*.json
+.clasprc.json
+
+# ===== 套件與建置產物 =====
+node_modules/
+dist/
+build/
+.next/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ===== 系統與編輯器暫存檔 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+~$*
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# ===== 記錄檔 =====
+*.log
+npm-debug.log*
