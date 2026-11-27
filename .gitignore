@@ -6,7 +6,15 @@
 *.key
 *credentials*.json
 *serviceAccountKey*.json
+*firebase-adminsdk*.json
 .clasprc.json
+
+# ===== 部署工具的本機設定 =====
+.vercel/
+.firebase/
+
+# ===== 測試用的題目照片（可能拍到姓名，不上傳） =====
+test-photos/
 
 # ===== 套件與建置產物 =====
 node_modules/
